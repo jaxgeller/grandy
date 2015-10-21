@@ -1,5 +1,6 @@
 .button {
-  display: inline-block;
+  display: block;
+  margin: 0 auto;
   width: 300px;
   padding: 20px 0;
   font-family: $roboto;
@@ -7,4 +8,6 @@
   font-weight: bold;
   text-transform: uppercase;
   border-radius: 4px;
+  color: $green;
+  text-align: center;
 }

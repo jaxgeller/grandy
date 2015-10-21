@@ -1,0 +1,29 @@
+.split {
+  @include clearfix;
+  background-color: $beige;
+  color: $gray;
+  font-family: $roboto;
+  font-size: 24px;
+  font-weight: 400;
+}
+.left {
+  float: left;
+  width: 50%;
+  padding: 90px;
+}
+.right {
+  float: right;
+  width: 50%;
+  padding: 90px;
+}
+.split-description {
+  background-color: $beige;
+  color: $green;
+}
+.split-details {
+  background-color: white;
+}
+.split-button {
+  margin-top: 60px;
+  border: 1px solid $green;
+}
