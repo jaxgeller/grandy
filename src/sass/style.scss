@@ -5,6 +5,7 @@
 $green: #2BD882;
 $beige: #F9F9F2;
 $gray: #5D5D5D;
+// $blue:
 
 
 $roboto: "Roboto", sans-serif;;
@@ -20,12 +21,12 @@ body {
   font-family: $medium;
 }
 
-
+@import "ui";
 @import "header";
-
+@import "nav";
 
 .feature-image {
-  height: 62.5vh;
+  height: 65vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
