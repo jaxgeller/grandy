@@ -1,3 +1,43 @@
+.nav {
+  @include clearfix;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+.logo {
+  float: left;
+  width: 100px;
+  height: 30px;
+  @include hide-text;
+  background: url('images/logo.svg') center/cover no-repeat;
+}
+.nav-link {
+  float: right;
+  font-size: 16px;
+  font-family: $roboto;
+}
+
 .header {
   background-color: $green;
+  height: 100vh;
+  color: white;
+  text-align: center;
+}
+.header-container {
+  max-width: 840px;
+  margin: 0 auto;
+  // position: relative;
+  // top: 50%;
+  // transform: translateY(-50%);
+}
+
+.header-description {
+  font-family: $roboto;
+  font-weight: 300;
+}
+
+.get-started-button {
+}
+
+.how-it-works {
 }
