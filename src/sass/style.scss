@@ -1,0 +1,15 @@
+@import "mixins";
+@import "reset";
+
+$green: #2BD882;
+$beige: #F9F9F2;
+$gray: #5D5D5D;
+
+html {
+  // 1rem = 10px
+  // font-size: 10px;
+}
+
+
+@import "header";
+
