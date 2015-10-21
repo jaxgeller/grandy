@@ -1,6 +1,7 @@
 .header {
   background-color: $green;
-  height: 100vh;
+  // height: 100vh;
+  padding-bottom: 45px;
   color: white;
   text-align: center;
 }
@@ -10,6 +11,8 @@
 }
 
 .header-description {
+  max-width: 650px;
+  margin: 0 auto;
   margin-top: 30px;
   font-family: $roboto;
   font-weight: 300;
@@ -19,13 +22,28 @@
   margin-top: 35px;
   background-color: white;
   color: $green;
+  font-weight: 400;
 }
 
 .how-it-works {
   padding-bottom: 25px;
   font-family: $roboto;
   font-size: 14px;
-  background: url('images/down-arrow.svg') center bottom no-repeat;
-  background-size: 25px;
   opacity: 0.8;
+}
+
+.how-it-works-icon {
+  display: inline-block;
+  width: 25px;
+  margin: 15px auto;
+  animation:  clickme ease 5s infinite;
+}
+
+@keyframes clickme {
+  0%  {transform: translate3d(0, 0, 0) rotate(0);}
+  20%   {transform: translate3d(0, 5px, 0) rotate(0);}
+  40%   {transform: translate3d(0, 0, 0) rotate(0);}
+  60%   {transform: translate3d(0, 5px, 0) rotate(0);}
+  80%   {transform: translate3d(0, 0, 0) rotate(1turn);}
+  100%  {transform: translate3d(0, 0, 0) rotate(1turn);}
 }
