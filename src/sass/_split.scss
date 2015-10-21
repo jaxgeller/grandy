@@ -5,25 +5,37 @@
   font-family: $roboto;
   font-size: 24px;
   font-weight: 400;
+
+  &:nth-of-type(even) {
+    %split-item{float: right;}
+  }
 }
-.left {
+
+%split-item {
   float: left;
   width: 50%;
   padding: 90px;
 }
-.right {
-  float: right;
-  width: 50%;
-  padding: 90px;
-}
+
 .split-description {
+  @extend %split-item;
   background-color: $beige;
   color: $green;
 }
 .split-details {
+  @extend %split-item;
   background-color: white;
+
+  p{margin-bottom: 60px;}
 }
+
 .split-button {
+  margin-top: 60px;
+  color: white;
+  background-color: $green;
+}
+
+.split-button-inverse {
   margin-top: 60px;
   border: 1px solid $green;
 }
