@@ -6,23 +6,35 @@
   font-weight: 400;
 
   &:nth-of-type(even) {
-    %split-item{float: right;}
+    .split-description {
+      float: left;
+      left: 0;
+      top: 0;
+    }
+    .split-details {
+      float: right;
+    }
   }
 }
 
 %split-item {
-  float: left;
   width: 50%;
   padding: 90px;
 }
 
 .split-description {
   @extend %split-item;
+  position: absolute;
+  float: right;
+  right: 0;
+  top: 0;
+  // min-height: 100vh;
   background-color: $beige;
   color: $green;
 }
 .split-details {
   @extend %split-item;
+  float: left;
   background-color: white;
 
   p{margin-bottom: 60px;}

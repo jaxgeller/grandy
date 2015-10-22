@@ -1,25 +1,24 @@
 .header {
   background-color: $green;
-  height: 100vh;
   padding-bottom: 45px;
   color: white;
   text-align: center;
 }
 .header-container {
   max-width: 840px;
-  margin: 0 auto 100px auto;
+  margin: 0 auto 10rem auto;
 }
 
 .header-description {
-  max-width: 650px;
+  max-width: 65rem;
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 3rem;
   font-family: $roboto;
   font-weight: 300;
 }
 
 .get-started-button {
-  margin-top: 35px;
+  margin-top: 3.5rem;
   background-color: white;
   color: $green;
   font-weight: 400;

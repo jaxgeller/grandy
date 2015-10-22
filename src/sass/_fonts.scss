@@ -26,6 +26,10 @@
 .BrandonText-Thin { font-family: BrandonText-Thin; }
 .BrandonText-MediumItalic { font-family: BrandonText-MediumItalic; }
 
+$medium: BrandonText-Medium;
+
+
 h2 {
   font-size: 7.2rem;
+  font-family: $medium;
 }
