@@ -18,7 +18,7 @@ html {
 
 body {
   font-size: 2.4rem;
-  font-family: $medium;
+  font-family: $roboto;
 }
 
 @import "ui";
@@ -26,11 +26,3 @@ body {
 @import "nav";
 @import "footer";
 @import "split";
-
-.feature-image {
-  height: 65vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  @for $i from 1 through 4 { &:nth-of-type(#{$i}) {background-image: url('images/feature-#{$i}.jpg');} }
-}
