@@ -3,7 +3,6 @@
   @include clearfix;
   background-color: $beige;
   color: $gray;
-  font-size: 24px;
   font-weight: 400;
 
   &:nth-of-type(even) {
@@ -46,7 +45,7 @@
   border: 1px solid $green;
   border-left: 0; border-right: 0;
   text-align: center;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 400;
   color: $gray;
 
