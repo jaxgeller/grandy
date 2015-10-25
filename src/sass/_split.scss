@@ -38,7 +38,6 @@
   background-color: white;
 
   p{margin-bottom: 60px;}
-  height: 2000px;
   transform: translateZ(0);
 }
 
@@ -88,6 +87,7 @@
 }
 
 .feature-image {
+  max-height: 500px;
   height: 65vh;
   background-size: cover;
   background-repeat: no-repeat;
