@@ -7,8 +7,8 @@
   }
 }
 
-@mixin min($width) {
-  @media screen and (min-width: $width) {
+@mixin max($width) {
+  @media screen and (max-width: $width) {
     @content;
   }
 }

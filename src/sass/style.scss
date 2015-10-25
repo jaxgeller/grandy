@@ -13,6 +13,14 @@ $roboto: "Roboto", sans-serif;;
 html {
   // 1rem = 10px
   font-size: 10px;
+
+  @include max(1075px) {
+    font-size: 8px;
+  }
+
+  @include max(860px) {
+    font-size: 6px;
+  }
 }
 
 body {

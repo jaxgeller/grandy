@@ -1,11 +1,11 @@
 .header {
   background-color: $green;
-  padding-bottom: 45px;
+  padding-bottom: 4.5rem;
   color: white;
   text-align: center;
 }
 .header-container {
-  max-width: 840px;
+  max-width: 84rem;
   margin: 0 auto 10rem auto;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .how-it-works {
-  padding-bottom: 25px;
+  padding-bottom: 2.5rem;
   font-family: $roboto;
   font-size: 1.4rem;
   opacity: 0.8;
@@ -33,6 +33,6 @@
 
 .how-it-works-icon {
   display: inline-block;
-  width: 25px;
-  margin: 15px auto;
+  width: 2.5rem;
+  margin: 1.5rem auto;
 }
