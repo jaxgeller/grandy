@@ -35,14 +35,4 @@
   display: inline-block;
   width: 25px;
   margin: 15px auto;
-  animation:  clickme ease 5s infinite;
-}
-
-@keyframes clickme {
-  0%  {transform: translate3d(0, 0, 0) rotate(0);}
-  20%   {transform: translate3d(0, 5px, 0) rotate(0);}
-  40%   {transform: translate3d(0, 0, 0) rotate(0);}
-  60%   {transform: translate3d(0, 5px, 0) rotate(0);}
-  80%   {transform: translate3d(0, 0, 0) rotate(1turn);}
-  100%  {transform: translate3d(0, 0, 0) rotate(1turn);}
 }
