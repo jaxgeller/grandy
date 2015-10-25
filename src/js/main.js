@@ -1,22 +1,15 @@
-/*
-.split
-.split-description
-.split-details
-*/
-
-const spacing = 90;
-let scrollBuffer = 0;
-let dir;
 let els = [].slice.call(document.querySelectorAll('.split'));
 
 window.addEventListener('scroll', () => {
   els.forEach(item => {
+    let windowPos = window.scrollY;
     let rect = item.getBoundingClientRect();
-    let top = rect.top + window.scrollY;
+    let top = rect.top + windowPos;
 
     let el = item.querySelector('.split-description');
     let coordinator = item.querySelector('.split-details');
-    if (window.scrollY > top && window.scrollY < top + rect.height) {
+
+    if (windowPos > top && windowPos < top + rect.height) {
       el.style.position = 'fixed';
       el.style.top = 0;
       el.style.bottom = 'initial';
