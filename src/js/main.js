@@ -51,7 +51,7 @@ export default class Jumper {
 let els = [].slice.call(document.querySelectorAll('.split'));
 
 window.addEventListener('scroll', () => {
-  if (window.innerHeight > 860) {
+  if (window.innerWidth > 860) {
     els.forEach(item => {
       let windowPos = window.scrollY;
       let rect = item.getBoundingClientRect();

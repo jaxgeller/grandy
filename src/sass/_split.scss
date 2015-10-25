@@ -26,7 +26,7 @@
     float: none;
     width: 100%;
     img {
-      max-width: 80%;
+      max-width: 90%;
       margin: 0 auto;
       display: block;
     }
@@ -48,7 +48,13 @@
   float: left;
   background-color: white;
 
-  p{margin-bottom: 6rem;}
+  p{
+    margin-bottom: 6rem;
+    @include max(860px) {
+      width: 90%;
+      margin: 0px auto 50px auto;
+    }
+  }
   transform: translateZ(0);
 }
 
@@ -78,12 +84,23 @@
     background-size: 25px;
     padding-left: 40px;
     font-weight: 500;
+
+    @include max(860px) {
+      display: block;
+      margin: 10px auto;
+      background: none;
+      padding: 0;
+    }
   }
 
   a {
     font-weight: lighter;
     color: $green;
     text-decoration: underline;
+    @include max(860px) {
+      display: block;
+      margin: 10px auto;
+    }
   }
 
   &::after {
@@ -104,4 +121,8 @@
   background-repeat: no-repeat;
   background-position: center;
   @for $i from 1 through 4 { &:nth-of-type(#{$i}) {background-image: url('images/feature-#{$i}.jpg');} }
+
+  @include max(860px) {
+    max-height: 250px;
+  }
 }
