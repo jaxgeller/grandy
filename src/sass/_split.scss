@@ -26,7 +26,6 @@
     float: none;
     width: 100%;
     img {
-      max-width: 90%;
       margin: 0 auto;
       display: block;
     }
@@ -52,7 +51,6 @@
   p{
     margin-bottom: 6rem;
     @include max(860px) {
-      width: 90%;
       margin: 0px auto 50px auto;
     }
   }
