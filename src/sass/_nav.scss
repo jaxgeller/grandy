@@ -2,7 +2,7 @@
   @include clearfix;
   max-width: 104rem;
   margin: 0 auto;
-  padding: 60px 40px 120px 40px;
+  padding: 6rem 4rem 12rem 4rem;
 }
 .logo {
   float: left;
@@ -16,4 +16,8 @@
   font-size: 1.6rem;
 
   &:last-child {margin-right: 30px;}
+
+  @include max(860px) {
+    padding-top: 10px;
+  }
 }
