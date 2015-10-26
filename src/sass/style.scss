@@ -1,18 +1,16 @@
-@import "mixins";
-@import "reset";
-@import "fonts";
+@import
+  "mixins",
+  "reset",
+  "fonts";
 
 $green: #2BD882;
 $beige: #F9F9F2;
 $gray: #5D5D5D;
-// $blue:
-
 
 $roboto: "Roboto", sans-serif;;
 
 html {
-  // 1rem = 10px
-  font-size: 10px;
+  font-size: 10px; // 1rem = 10px
 
   @include max(1075px) {
     font-size: 8px;
@@ -24,12 +22,14 @@ html {
 }
 
 body {
-  font-size: 2.4rem;
+  font-size: 2.4em; // fix chrome-issue#319623
   font-family: $roboto;
 }
 
-@import "ui";
-@import "header";
-@import "nav";
-@import "footer";
-@import "split";
+@import
+  "ui",
+  "header",
+  "nav",
+  "footer",
+  "split"
+  ;

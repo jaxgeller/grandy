@@ -4,6 +4,7 @@
   margin: 0 auto;
   padding: 6rem 4rem 12rem 4rem;
 }
+
 .logo {
   float: left;
   width: 100px;
@@ -11,6 +12,7 @@
   @include hide-text;
   background: url('images/logo.svg') center/cover no-repeat;
 }
+
 .nav-link {
   float: right;
   font-size: 1.6rem;

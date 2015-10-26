@@ -43,6 +43,7 @@
   color: $green;
   transform: translateZ(0);
 }
+
 .split-details {
   @extend %split-item;
   float: left;
