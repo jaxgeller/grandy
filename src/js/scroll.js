@@ -5,6 +5,7 @@ export default class Scroll {
     this.ticking = false;
 
     window.addEventListener('scroll', this.onScroll.bind(this));
+    window.addEventListener('resize', this.update.bind(this));
   }
 
 
