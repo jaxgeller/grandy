@@ -1,17 +1,19 @@
+$roboto: "Roboto", sans-serif;;
+
 @import url("//hello.myfonts.net/count/2e4cb1");
 
 @font-face {
   font-family: 'BrandonText-Medium';
-                src:  url('webfonts/2E4CB1_8_0.eot');
-                src:  url('webfonts/2E4CB1_8_0.eot?#iefix') format('embedded-opentype'),
-                      url('webfonts/2E4CB1_8_0.woff2')      format('woff2'),url('webfonts/2E4CB1_8_0.woff')
-                                                            format('woff'),url('webfonts/2E4CB1_8_0.ttf')
+                src:  url('fonts/2E4CB1_8_0.eot');
+                src:  url('fonts/2E4CB1_8_0.eot?#iefix') format('embedded-opentype'),
+                      url('fonts/2E4CB1_8_0.woff2')      format('woff2'),url('fonts/2E4CB1_8_0.woff')
+                                                            format('woff'),url('fonts/2E4CB1_8_0.ttf')
                                                             format('truetype');
 }
 
 .BrandonText-Medium { font-family: BrandonText-Medium; }
 
-$medium: BrandonText-Medium;
+$medium: BrandonText-Medium, $roboto;
 
 h2 {
   font-size: 7.2rem;
