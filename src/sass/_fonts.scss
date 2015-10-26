@@ -1,33 +1,17 @@
 @import url("//hello.myfonts.net/count/2e4cb1");
-@font-face {font-family: 'BrandonText-BoldItalic';src: url('webfonts/2E4CB1_0_0.eot');src: url('webfonts/2E4CB1_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2E4CB1_0_0.woff2') format('woff2'),url('webfonts/2E4CB1_0_0.woff') format('woff'),url('webfonts/2E4CB1_0_0.ttf') format('truetype');}
-@font-face {font-family: 'BrandonText-Bold';src: url('webfonts/2E4CB1_1_0.eot');src: url('webfonts/2E4CB1_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2E4CB1_1_0.woff2') format('woff2'),url('webfonts/2E4CB1_1_0.woff') format('woff'),url('webfonts/2E4CB1_1_0.ttf') format('truetype');}
-@font-face {font-family: 'BrandonText-BlackItalic';src: url('webfonts/2E4CB1_2_0.eot');src: url('webfonts/2E4CB1_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2E4CB1_2_0.woff2') format('woff2'),url('webfonts/2E4CB1_2_0.woff') format('woff'),url('webfonts/2E4CB1_2_0.ttf') format('truetype');}
-@font-face {font-family: 'BrandonText-Black';src: url('webfonts/2E4CB1_3_0.eot');src: url('webfonts/2E4CB1_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2E4CB1_3_0.woff2') format('woff2'),url('webfonts/2E4CB1_3_0.woff') format('woff'),url('webfonts/2E4CB1_3_0.ttf') format('truetype');}
-@font-face {font-family: 'BrandonText-LightItalic';src: url('webfonts/2E4CB1_4_0.eot');src: url('webfonts/2E4CB1_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2E4CB1_4_0.woff2') format('woff2'),url('webfonts/2E4CB1_4_0.woff') format('woff'),url('webfonts/2E4CB1_4_0.ttf') format('truetype');}
-@font-face {font-family: 'BrandonText-Light';src: url('webfonts/2E4CB1_5_0.eot');src: url('webfonts/2E4CB1_5_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2E4CB1_5_0.woff2') format('woff2'),url('webfonts/2E4CB1_5_0.woff') format('woff'),url('webfonts/2E4CB1_5_0.ttf') format('truetype');}
-@font-face {font-family: 'BrandonText-RegularItalic';src: url('webfonts/2E4CB1_6_0.eot');src: url('webfonts/2E4CB1_6_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2E4CB1_6_0.woff2') format('woff2'),url('webfonts/2E4CB1_6_0.woff') format('woff'),url('webfonts/2E4CB1_6_0.ttf') format('truetype');}
-@font-face {font-family: 'BrandonText-Regular';src: url('webfonts/2E4CB1_7_0.eot');src: url('webfonts/2E4CB1_7_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2E4CB1_7_0.woff2') format('woff2'),url('webfonts/2E4CB1_7_0.woff') format('woff'),url('webfonts/2E4CB1_7_0.ttf') format('truetype');}
-@font-face {font-family: 'BrandonText-Medium';src: url('webfonts/2E4CB1_8_0.eot');src: url('webfonts/2E4CB1_8_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2E4CB1_8_0.woff2') format('woff2'),url('webfonts/2E4CB1_8_0.woff') format('woff'),url('webfonts/2E4CB1_8_0.ttf') format('truetype');}
-@font-face {font-family: 'BrandonText-ThinItalic';src: url('webfonts/2E4CB1_9_0.eot');src: url('webfonts/2E4CB1_9_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2E4CB1_9_0.woff2') format('woff2'),url('webfonts/2E4CB1_9_0.woff') format('woff'),url('webfonts/2E4CB1_9_0.ttf') format('truetype');}
-@font-face {font-family: 'BrandonText-Thin';src: url('webfonts/2E4CB1_A_0.eot');src: url('webfonts/2E4CB1_A_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2E4CB1_A_0.woff2') format('woff2'),url('webfonts/2E4CB1_A_0.woff') format('woff'),url('webfonts/2E4CB1_A_0.ttf') format('truetype');}
-@font-face {font-family: 'BrandonText-MediumItalic';src: url('webfonts/2E4CB1_B_0.eot');src: url('webfonts/2E4CB1_B_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2E4CB1_B_0.woff2') format('woff2'),url('webfonts/2E4CB1_B_0.woff') format('woff'),url('webfonts/2E4CB1_B_0.ttf') format('truetype');}
 
+@font-face {
+  font-family: 'BrandonText-Medium';
+                src:  url('webfonts/2E4CB1_8_0.eot');
+                src:  url('webfonts/2E4CB1_8_0.eot?#iefix') format('embedded-opentype'),
+                      url('webfonts/2E4CB1_8_0.woff2')      format('woff2'),url('webfonts/2E4CB1_8_0.woff')
+                                                            format('woff'),url('webfonts/2E4CB1_8_0.ttf')
+                                                            format('truetype');
+}
 
-.BrandonText-BoldItalic { font-family: BrandonText-BoldItalic; }
-.BrandonText-Bold { font-family: BrandonText-Bold; }
-.BrandonText-BlackItalic { font-family: BrandonText-BlackItalic; }
-.BrandonText-Black { font-family: BrandonText-Black; }
-.BrandonText-LightItalic { font-family: BrandonText-LightItalic; }
-.BrandonText-Light { font-family: BrandonText-Light; }
-.BrandonText-RegularItalic { font-family: BrandonText-RegularItalic; }
-.BrandonText-Regular { font-family: BrandonText-Regular; }
 .BrandonText-Medium { font-family: BrandonText-Medium; }
-.BrandonText-ThinItalic { font-family: BrandonText-ThinItalic; }
-.BrandonText-Thin { font-family: BrandonText-Thin; }
-.BrandonText-MediumItalic { font-family: BrandonText-MediumItalic; }
 
 $medium: BrandonText-Medium;
-
 
 h2 {
   font-size: 7.2rem;
