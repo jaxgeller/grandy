@@ -1,28 +1,10 @@
 import Jumper from './jumper.js';
 import Scroll from './scroll.js';
 
-
-new Scroll();
-
-
-
-
-
-
-
-
+// scroll handler defined in scroll.js
+let s = new Scroll();
+let j = new Jumper();
 
 document.getElementById('how-it-works').addEventListener('click', function(){
-
-  var jumper = new Jumper({
-    duration: 1000,                     // ms
-    offset: 0,                          // px
-    callback: null,                     // function
-    easing: function(t, b, c, d) {      // Robert Penner's easeInQuad
-      return c * (t /= d) * t + b;
-    }
-  });
-
-  jumper.jump(document.querySelector('.split'));
-
+  j.jump(document.querySelector('.split'));
 });
